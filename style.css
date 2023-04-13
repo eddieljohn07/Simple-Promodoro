@@ -11,10 +11,21 @@ body {
 
 h1 {
     text-align: center;
+    background-color: rgb(132, 0, 255);
+    padding: 30px;
+    margin: 0;
 }
 
 ul {
     list-style: none;
+    margin-right: 10%;
+}
+
+li {
+    padding: 10px;
+    background-color: rgba(137, 103, 231, 0.7);
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
 }
 
 .timer-container {
