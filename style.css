@@ -7,15 +7,12 @@ body {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    height: 100%;
-    width: 100%;
+    align-items: center;
+    margin: 0;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+header h1{
+    width: 100%;
 }
 
 h1 {
@@ -27,8 +24,8 @@ h1 {
 }
 
 article {
-    list-style: none;
-    margin-right: 10%;
+    width: 30%;
+
 }
 
 p {
