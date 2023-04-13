@@ -53,3 +53,5 @@ const stopTimer = () => {
     isRunning = false;
     updateDisplay();
 }
+
+document.getElementById('start').addEventListener('click', debounce(startTimer, 500));
