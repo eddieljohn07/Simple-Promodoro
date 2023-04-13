@@ -13,6 +13,10 @@ h1 {
     text-align: center;
 }
 
+ul {
+    list-style: none;
+}
+
 .timer-container {
     background-color: rgba(137, 103, 231, 0.7);
     padding: 20px;
