@@ -7,6 +7,8 @@ body {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
@@ -17,12 +19,12 @@ h1 {
     color: aliceblue;
 }
 
-ul {
+article {
     list-style: none;
     margin-right: 10%;
 }
 
-li {
+p {
     padding: 10px;
     background-color: rgba(137, 103, 231, 0.7);
     border-radius: 10px;
