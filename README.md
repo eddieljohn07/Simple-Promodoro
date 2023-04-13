@@ -5,3 +5,5 @@ This Pomodoro timer app is a simple tool to help you implement the Pomodoro Tech
 ---
 If you would like to contribute to this Pomodoro timer app, feel free to submit a pull request with your changes. 
 ---
+
+BG Video by Nikita Ryumshin: https://www.pexels.com/video/an-animated-background-7832280/
