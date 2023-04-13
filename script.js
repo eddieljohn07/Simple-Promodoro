@@ -44,3 +44,12 @@ if (!isRunning) {
         }, 1000);
     }
 }
+
+const stopTimer = () => {
+    clearInterval(intervalId);
+    minutes = 25;
+    seconds = 0;
+    isPomodoro = true;
+    isRunning = false;
+    updateDisplay();
+}
