@@ -13,37 +13,37 @@ const debounce = (func, delay) => {
       }, delay);
     };
   };
-
+  
 const startTimer = () => {
-if (!isRunning) {
-    isRunning = true;
-    intervalId = setInterval(() => {
+    if (!isRunning) {
+      isRunning = true;
+      intervalId = setInterval(() => {
         if (seconds === 0) {
-            if (minutes === 0) {
+          if (minutes === 0) {
             clearInterval(intervalId);
             isRunning = false;
             if (isPomodoro) {
-                alert('The 25 minutes of work is finished! Go ahead and take a break!\n You deserve it!');
-                minutes = 5;
-                isPomodoro = false;
+              alert('The 25 minutes of work is finished! Go ahead and take a break!\n You deserve it!');
+              minutes = 5;
+              isPomodoro = false;
             } else {
-                alert('Your short break is finished! Time to grind again!');
-                minutes = 25;
-                isPomodoro = true;
+              alert('Your short break is finished! Time to grind again!');
+              minutes = 25;
+              isPomodoro = true;
             }
             seconds = 0;
             updateDisplay();
-            } else {
-                minutes--;
-                seconds = 59;
-            }
+          } else {
+            minutes--;
+            seconds = 59;
+          }
         } else {
-            seconds--;
+          seconds--;
         }
         updateDisplay();
-        }, 1000);
+      }, 1000);
     }
-}
+  }
 
 const stopTimer = () => {
     clearInterval(intervalId);
