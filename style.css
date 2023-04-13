@@ -3,6 +3,8 @@ body {
     background-image: url('media/bg.gif');
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
