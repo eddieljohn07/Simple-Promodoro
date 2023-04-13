@@ -76,10 +76,10 @@ button {
     box-shadow: 0px 5px 0px 0px #a29bfe;
   }
   
-  button:active {
+button:active {
     transform: translateY(5px);
     box-shadow: 0px 0px 0px 0px #a29bfe;
-  }
+}
 
 footer{
     background-color: rgb(132, 0, 255);
