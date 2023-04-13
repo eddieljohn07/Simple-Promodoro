@@ -30,9 +30,11 @@ li {
 }
 
 .timer-container {
-    background-color: rgba(137, 103, 231, 0.7);
-    padding: 20px;
     border-radius: 25px;
+    background: linear-gradient(145deg, #7b5dd0, #936ef7);
+    box-shadow: 12px 12px 24px #6b50b4,
+                -12px -12px 24px #a77eff;
+    padding: 10px;
     margin-top: 10%;
 }
 
@@ -60,4 +62,6 @@ li {
     margin-right: 10px;
 }
 
-  
+footer{
+    background-color: rgb(132, 0, 255);
+}
