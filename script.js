@@ -34,8 +34,8 @@ if (!isRunning) {
             seconds = 0;
             updateDisplay();
             } else {
-            minutes--;
-            seconds = 59;
+                minutes--;
+                seconds = 59;
             }
         } else {
             seconds--;
@@ -56,3 +56,13 @@ const stopTimer = () => {
 
 document.getElementById('start').addEventListener('click', debounce(startTimer, 500));
 document.getElementById('stop').addEventListener('click', stopTimer);
+
+setInterval(() => {
+    const startButton = document.getElementById('start');
+    if (isRunning) {
+      startButton.setAttribute('disabled', true);
+    } else {
+      startButton.removeAttribute('disabled');
+    }
+  }, 100);
+  
