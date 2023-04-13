@@ -55,3 +55,4 @@ const stopTimer = () => {
 }
 
 document.getElementById('start').addEventListener('click', debounce(startTimer, 500));
+document.getElementById('stop').addEventListener('click', stopTimer);
