@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     background-image: url('media/bg.gif');
     background-size: cover;
@@ -15,7 +17,7 @@ h1 {
     background-color: rgba(137, 103, 231, 0.7);
     padding: 20px;
     border-radius: 25px;
-    margin-top: 50%;
+    margin-top: 20%;
 }
 
 .timer {
