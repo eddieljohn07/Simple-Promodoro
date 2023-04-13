@@ -40,7 +40,7 @@ p {
     box-shadow: 12px 12px 24px #6b50b4,
                 -12px -12px 24px #a77eff;
     padding: 10px;
-    margin-top: 10%;
+    margin: 5% 0 10% 0;
 }
 
 .timer {
@@ -62,10 +62,24 @@ p {
 .buttons {
     margin-top: 20px;
 }
+
+button {
+    border: none;
+    outline: none;
+    background-color: #6c5ce7;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+  }
   
-  button {
-    margin-right: 10px;
-}
+  button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
 
 footer{
     background-color: rgb(132, 0, 255);
