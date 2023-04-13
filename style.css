@@ -15,3 +15,8 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+.time {
+    font-size: 50px;
+    font-weight: bold;
+}
