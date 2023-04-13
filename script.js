@@ -65,4 +65,10 @@ setInterval(() => {
       startButton.removeAttribute('disabled');
     }
   }, 100);
-  
+
+  const updateDisplay = () => {
+    const minutesStr = minutes.toString().padStart(2, '0');
+    const secondsStr = seconds.toString().padStart(2, '0');
+    document.getElementById('minutes').textContent = minutesStr;
+    document.getElementById('seconds').textContent = secondsStr;
+  }  
