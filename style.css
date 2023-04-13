@@ -73,6 +73,6 @@ footer{
     color: aliceblue;
     font-weight: 600;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0 20px 0;
     bottom: 0;
 }
