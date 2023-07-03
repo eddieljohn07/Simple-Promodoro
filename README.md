@@ -1,4 +1,4 @@
-# Simple Promodoro Timer
+# Simple Pomodoro Timer
 A simple Pomodoro timer app built with **HTML, CSS, and JavaScript**
 
 By clicking the start button the countdown will start for 25 minutes.
